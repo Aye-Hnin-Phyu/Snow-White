@@ -1,0 +1,52 @@
+<html>
+<head><title>Javscript</title>
+</head>
+<body>
+<script type="text/javaScript" language="JavaScript">
+//Write line Method to print out text/html
+document.write('<h1>Welcome JavaScript</h1>');
+document.write('<h1>Hi JavaScript</h1>');
+</script>
+
+<input type="button" value="Red" onclick="document.bgColor='red';">
+<input type="button" value="Green" onclick="document.bgColor='green';">
+<input type="button" value="Blue" onclick="document.bgColor='Blue';">
+<hr>
+<table border=1 cellpadding=5 style="border-collapse:collapse;width:200">
+<tr>
+<td onmouseover="this.bgColor='tan'" onmouseout="this.bgColor=''">Menu 1</td>
+</tr>
+
+<tr>
+<td onmouseover="this.bgColor='tan'" onmouseout="this.bgColor=''">Menu 2</td>
+</tr>
+<tr>
+<td onmouseover="this.bgColor='tan'" onmouseout="this.bgColor=''" >Menu 3</td>
+</tr>
+<tr>
+<td onmouseover="this.bgColor='tan'" onmouseout="this.bgColor=''">Menu 4</td>
+</tr>
+<tr>
+<td onmouseover="this.bgColor='tan'" onmouseout="this.bgColor=''">Menu 5</td>
+</tr>
+<input type="button" value="Popup" onclick="window.open()">
+
+<input type="button" value="Reload" onclick="window.location.reload()">
+<input type="button" value="Print" onclick="window.print()">
+<input type="button" value="Google" onclick="window.location.href'http//google.com'">
+<input type="button" value="Welcome" onclick="window.open('welcome.html','welcome','width=400px,height=250px,left=300px,top=50px,menubar=yes,scrollbars=yes,toolbar=yes,status=yes,location=yes,resizable=no');">
+<input type="button" value="test" onclick="window.open('welcome.html','test','width=400px,height=250px,left=300px,top=50px');">
+<script src="color.js" ></script>
+<br></table>
+<script>
+
+var bname=navigator.appCodeName;
+document.write('You are using '+bname);
+var sw=screen.width;
+var sh=screen.height;
+document.write('your screen Resolution is'+sw+'x'+sh);
+var d=new Date();
+document.write(d);
+</script>
+</body>
+</html>
